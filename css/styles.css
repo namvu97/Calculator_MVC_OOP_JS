@@ -1,0 +1,68 @@
+body {
+	color: #fff;
+    font-size: 30px;
+    background: #C2C2D6;
+}
+#wrapper {
+	width: 100%;
+	height: 100vh;
+	padding-top: 10vh;
+}
+.calculator {
+	width: 400px;
+	height: 520px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background: #5b585e;
+	border-radius: 5px;
+	border: 2px solid #666;
+	margin-bottom: 50px;
+}
+.calc, .display {
+	text-align: right;
+	line-height: 50px;
+	padding-right: 10px;
+    font-size: 40px;
+    height: 50px;
+}
+.calc {
+	color: #fd9e2b;
+	font-size: 16px;
+	letter-spacing: 1px;
+	width: auto;
+	height: 50px;
+}
+.table {
+
+}
+.table tr td {
+	width: 31%;
+	height: 75px;
+	border: 1.5px solid #5b585f;
+	background: #807f83;
+}
+.table tr td:active{
+	background: #b4b3b6;
+}
+.table tr td:last-child{
+	background: #fd9e2b;
+}
+.table tr td:last-child:active{
+	background: #c97d20;
+}
+.table button {
+	background: transparent;
+	border: none;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+button {
+	width: 100%;
+	height: 100%;
+}
+
+.operation {
+    width: 50px;
+}
